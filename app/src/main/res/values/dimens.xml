@@ -9,4 +9,11 @@
     <dimen name="espacamento_extragrande">32dp</dimen>
     <dimen name="espacamento_duplo">64dp</dimen>
 
+    <dimen name="texto_titulo_principal">32sp</dimen>
+    <dimen name="texto_titulo_secundario">26sp</dimen>
+    <dimen name="texto_titulo_secao">20sp</dimen>
+    <dimen name="texto_subtitulo">16sp</dimen>
+    <dimen name="texto_informativo">14sp</dimen>
+    <dimen name="texto_detalhe_adicional">12sp</dimen>
+
 </resources>
