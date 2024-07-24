@@ -16,4 +16,12 @@
     <dimen name="texto_informativo">14sp</dimen>
     <dimen name="texto_detalhe_adicional">12sp</dimen>
 
+    <dimen name="arredondamento_pequeno">4dp</dimen>
+    <dimen name="arredondamento_medio">8dp</dimen>
+    <dimen name="arredondamento_padrao">12dp</dimen>
+    <dimen name="arredondamento_grande">16dp</dimen>
+    <dimen name="arredondamento_muitogrande">24dp</dimen>
+    <dimen name="arredondamento_extragrande">32dp</dimen>
+    <dimen name="arredondamento_duplo">64dp</dimen>
+
 </resources>
