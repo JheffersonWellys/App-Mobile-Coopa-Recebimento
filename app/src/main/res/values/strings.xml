@@ -2,6 +2,10 @@
 
     <string name="app_name">Coopa - Recebimento</string>
 
+    <string name="app_empresa">Coopa</string>
+    <string name="app_modulo">Recebimento</string>
+    <string name="app_versao">v1.0.0</string>
+
     <string name="CrdVw_NFe_NotaFiscal">Nota Fiscal</string>
     <string name="CrdVw_NFe_Produtos">Produtos</string>
     <string name="CrdVw_NFe_Fornecedor">Fornecedor</string>
