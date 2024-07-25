@@ -1,3 +1,18 @@
 <resources>
+
     <string name="app_name">Coopa - Recebimento</string>
+
+    <string name="CrdVw_NFe_NotaFiscal">Nota Fiscal</string>
+    <string name="CrdVw_NFe_Produtos">Produtos</string>
+    <string name="CrdVw_NFe_Fornecedor">Fornecedor</string>
+    <string name="CrdVw_NFe_DataDeRecebimento">Data de Recebimento</string>
+    <string name="CrdVw_NFe_NomeConferente">Nome Conferente</string>
+
+    <string name="CrdVw_Item_NumeroItem">Item</string>
+    <string name="CrdVw_Item_Material">Material</string>
+    <string name="CrdVw_Item_TextoBreve">Texto Breve</string>
+    <string name="CrdVw_Item_Umb">UMB</string>
+    <string name="CrdVw_Item_CodigoEan">Código EAN</string>
+    <string name="CrdVw_Item_Quantidade">Quantidade</string>
+
 </resources>
