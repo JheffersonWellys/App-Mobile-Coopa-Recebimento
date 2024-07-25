@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:background="@color/verde_500">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/svg_simbolo_logoselo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ConsLyt_MenuLateral_NomeEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/espacamento_padrao"
+        android:text="@string/app_empresa"
+        android:textColor="@color/verde_800"
+        android:textSize="@dimen/texto_titulo_secao"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ConsLyt_MenuLateral_ModuloApp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/ConsLyt_MenuLateral_VersaoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_versao"
+        android:textColor="@color/verde_800"
+        android:textSize="@dimen/texto_detalhe_adicional"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/espacamento_padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ConsLyt_MenuLateral_ModuloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_modulo"
+        android:textColor="@color/branco_1000"
+        android:textSize="@dimen/texto_informativo"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/espacamento_padrao"
+        android:layout_marginStart="@dimen/espacamento_padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
