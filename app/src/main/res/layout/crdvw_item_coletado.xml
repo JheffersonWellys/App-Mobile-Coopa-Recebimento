@@ -183,7 +183,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/espacamento_medio"
-            android:src="@drawable/icn_editar_item_editavel"
+            android:src="@drawable/icn_editar_item"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/CrdVw_Item_Vw_Cabecalho"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
