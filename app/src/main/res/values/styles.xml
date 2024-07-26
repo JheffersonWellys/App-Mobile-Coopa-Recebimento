@@ -41,6 +41,10 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="Sty_Fab">
+        <item name="borderWidth">0dp</item>
+    </style>
+
     <!-- CONFIGURAÇÃO DE ESTILOS DE COMPONENTES -->
     <style name="Sty_AppCmpBtn_VerdeClaro" parent="Sty_AppCmpBtn">
         <item name="android:background">@drawable/bg_appcmpbtn_verde_claro</item>
