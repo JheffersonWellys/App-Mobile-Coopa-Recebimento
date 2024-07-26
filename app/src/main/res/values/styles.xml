@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+    <!-- CONFIGURAÇÃO DE ESTILOS PADRÕES -->
+    <style name="Sty_AppCmpBtn">
+        <item name="android:padding">@dimen/espacamento_padrao</item>
+        <item name="android:height">52dp</item>
+        <item name="android:textSize">@dimen/texto_subtitulo</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
