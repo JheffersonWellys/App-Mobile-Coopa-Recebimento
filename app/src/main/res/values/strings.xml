@@ -33,4 +33,7 @@
     <string name="Str_CrdVw_Material_TextoBreveMaterial">Texto Breve Material</string>
     <string name="Str_CrdVw_Material_CodigoEan">Código Ean</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS ELEMENTOS DA TELA DE LOGON -->
+    <string name="Str_Act01_AppCmpBtn_ExecutarLogon">Conectar-se</string>
+
 </resources>
