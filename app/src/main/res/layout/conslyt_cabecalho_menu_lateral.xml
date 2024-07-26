@@ -18,9 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
         android:text="@string/Str_NomeEmpresa"
-        android:textColor="@color/verde_800"
-        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_TituloSecao"
-        android:textStyle="bold"
+        style="@style/Sty_TxtVw_Nivel_TituloSecao_Destaque"
         app:layout_constraintBottom_toTopOf="@+id/ConsLyt_MenuLateral_ModuloApp"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -30,8 +28,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Str_VersaoApp"
         android:textColor="@color/verde_800"
-        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
-        android:textStyle="bold"
+        style="@style/Sty_TxtVw_Nivel_DetalheAdicional_Destaque"
         android:layout_margin="@dimen/Dms_Espacamento_Padrao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -42,8 +39,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Str_NomeModuloApp"
         android:textColor="@color/branco_1000"
-        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
-        android:textStyle="bold"
+        style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
         android:layout_marginBottom="@dimen/Dms_Espacamento_Padrao"
         android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
         app:layout_constraintBottom_toBottomOf="parent"
