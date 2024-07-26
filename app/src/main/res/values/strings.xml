@@ -1,17 +1,19 @@
 <resources>
 
+    <!-- CONFIGURAÇÃO DE INFORMAÇÕES DO APLICATIVO -->
     <string name="Str_NomeAplicativo">Coopa - Recebimento</string>
-
     <string name="Str_NomeEmpresa">Coopa</string>
     <string name="Str_NomeModuloApp">Recebimento</string>
     <string name="Str_VersaoApp">v1.0.0</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS CAMPOS DE CARTÃO DE NOTA FISCAL -->
     <string name="Str_CrdVw_NFe_NotaFiscal">Nota Fiscal</string>
     <string name="Str_CrdVw_NFe_Produtos">Produtos</string>
     <string name="Str_CrdVw_NFe_Fornecedor">Fornecedor</string>
     <string name="Str_CrdVw_NFe_DataDeRecebimento">Data de Recebimento</string>
     <string name="Str_CrdVw_NFe_NomeConferente">Nome Conferente</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS CAMPOS DO CARTÃO DE ITEM -->
     <string name="Str_CrdVw_Item_NumeroItem">Item</string>
     <string name="Str_CrdVw_Item_Material">Material</string>
     <string name="Str_CrdVw_Item_TextoBreve">Texto Breve</string>
