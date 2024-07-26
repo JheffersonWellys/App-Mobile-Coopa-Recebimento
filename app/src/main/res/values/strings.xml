@@ -27,4 +27,10 @@
     <string name="Str_CrdVw_Fornecedor_CPF">CPF</string>
     <string name="Str_CrdVw_Fornecedor_RazaoSocial">Razão Social</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS CAMPOS DO CARTÃO DE FORNECEDOR -->
+    <string name="Str_CrdVw_Material_CodigoMaterial">Material</string>
+    <string name="Str_CrdVw_Material_UnidadeDeMedida">Unidade de Medida</string>
+    <string name="Str_CrdVw_Material_TextoBreveMaterial">Texto Breve Material</string>
+    <string name="Str_CrdVw_Material_CodigoEan">Código Ean</string>
+
 </resources>
