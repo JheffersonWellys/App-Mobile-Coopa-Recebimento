@@ -191,6 +191,84 @@
         <item name="android:hint">Data de Recebimento</item>
     </style>
 
+    <style name="Sty_TxtInptEdtTxt_Email" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_Senha" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">numberPassword</item>
+        <item name="android:maxLength">12</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_NumeroNFe" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">9</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_SerieNFe" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">3</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_NomeConferente" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">40</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_UnidadeDeMedida" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">5</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_Notificacao" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">250</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_NomeColaborador" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">40</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_Material" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">9</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_CodigoEan" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">15</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_NumeroItem" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">4</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_TextoBreveMaterial" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">40</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_Filial" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">40</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_IdentificadorFornecedor" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">40</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_RazaoSocialFornecedor" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt_DataDeRecebimento" parent="Sty_TxtInptEdtTxt">
+        <item name="android:inputType">text</item>
+        <item name="android:maxLength">15</item>
+    </style>
+
     <style name="Sty_EdtTxt_PesquisarNotaFiscal" parent="Sty_EdtTxt">
         <item name="android:hint">Pesquisar NF-e...</item>
     </style>
