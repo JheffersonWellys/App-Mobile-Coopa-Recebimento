@@ -193,4 +193,52 @@
     </style>
 
 
+    <style name="Sty_TxtVw_Nivel_TituloPrincipal" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloPrincipal</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_TituloSecundario" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloSecundario</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_TituloSecao" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloSecao</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_SubTitulo" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_SubTitulo</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_Informativo" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_Informativo</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_DetalheAdicional" parent="Sty_TxtVw">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_TituloPrincipal_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloPrincipal</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_TituloSecundario_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloSecundario</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_TituloSecao_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloSecao</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_SubTitulo_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_SubTitulo</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_Informativo_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_Informativo</item>
+    </style>
+
+    <style name="Sty_TxtVw_Nivel_DetalheAdicional_Destaque" parent="Sty_TxtVw_Destaque">
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional</item>
+    </style>
+
 </resources>
