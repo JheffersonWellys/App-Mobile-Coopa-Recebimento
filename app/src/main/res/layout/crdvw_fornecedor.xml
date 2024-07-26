@@ -11,7 +11,7 @@
     android:elevation="@dimen/Dms_Espacamento_Pequeno">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/CrdVw_Fornecedor_ConstLyt_DadosNotaFiscal"
+        android:id="@+id/CrdVw_Fornecedor_ConstLyt_DadosFornecedor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bg_conlyt_crdvw_corpo_cinza"
@@ -27,7 +27,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_NotaFiscal"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_BpFornecedor"
             style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
             app:layout_constraintTop_toTopOf="@+id/CrdVw_Fornecedor_Vw_Cabecalho" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_NumeroNotaFiscal"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_Bp"
             style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,11 +47,11 @@
             android:text="**"
             android:textColor="@color/verde_500"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Fornecedor_Vw_Cabecalho"
-            app:layout_constraintStart_toEndOf="@+id/CrdVw_Fornecedor_TxtVw_NotaFiscal"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Fornecedor_TxtVw_BpFornecedor"
             app:layout_constraintTop_toTopOf="@+id/CrdVw_Fornecedor_Vw_Cabecalho" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_Fornecedor"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_RazaoSocial"
             style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,11 +60,11 @@
             android:textColor="@color/cinza_500"
             android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             android:textStyle="normal"
-            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_NotaFiscal"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_BpFornecedor"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_Vw_Cabecalho" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_NomeFornecedor"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_RazaoSocialFornecedor"
             style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,11 +72,11 @@
             android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
             android:text="**"
             android:textColor="@color/cinza_900"
-            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_NotaFiscal"
-            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_Fornecedor" />
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_BpFornecedor"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_RazaoSocial" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_DataDeRecebimento"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_IdentificadorTipoFornecedor"
             style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,18 +85,18 @@
             android:textColor="@color/cinza_500"
             android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             android:textStyle="normal"
-            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_NotaFiscal"
-            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_NomeFornecedor" />
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_BpFornecedor"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_RazaoSocialFornecedor" />
 
         <TextView
-            android:id="@+id/CrdVw_Fornecedor_TxtVw_DataDeRecebimentoRegistrada"
+            android:id="@+id/CrdVw_Fornecedor_TxtVw_Identificador"
             style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="**"
             android:textColor="@color/cinza_900"
-            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_DataDeRecebimento"
-            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_DataDeRecebimento" />
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Fornecedor_TxtVw_IdentificadorTipoFornecedor"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Fornecedor_TxtVw_IdentificadorTipoFornecedor" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
