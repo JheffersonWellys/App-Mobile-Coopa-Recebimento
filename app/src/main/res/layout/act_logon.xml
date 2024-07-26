@@ -5,7 +5,7 @@
     android:id="@+id/Act01_ContLyt_Logon"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Act_Login">
+    tools:context=".Act_Logon">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/Act01_ContLyt_Ilustracao"
