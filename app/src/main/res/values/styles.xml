@@ -244,5 +244,29 @@
     <style name="Sty_TxtVw_Nivel_DetalheAdicional_Destaque" parent="Sty_TxtVw_Destaque">
         <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional</item>
     </style>
+    
+    <style name="Sty_Fab_NovoRecebimento" parent="Sty_Fab">
+        <item name="android:backgroundTint">@color/verde_500</item>
+        <item name="tint">@color/branco_1000</item>
+        <item name="android:src">@drawable/icn_novo_recebimento</item>
+    </style>
 
+    <style name="Sty_Fab_AdicionarItem" parent="Sty_Fab">
+        <item name="android:backgroundTint">@color/verde_500</item>
+        <item name="tint">@color/branco_1000</item>
+        <item name="android:src">@drawable/icn_adicionar_item</item>
+    </style>
+
+    <style name="Sty_Fab_LerCodigoEan" parent="Sty_Fab">
+        <item name="android:backgroundTint">@color/amarelo_500</item>
+        <item name="tint">@color/verde_800</item>
+        <item name="android:src">@drawable/icn_ler_ean</item>
+    </style>
+
+    <style name="Sty_Fab_EnviarRecebimentos" parent="Sty_Fab">
+        <item name="android:backgroundTint">@color/verde_800</item>
+        <item name="tint">@color/verde_500</item>
+        <item name="android:src">@drawable/icn_enviar</item>
+    </style>
+    
 </resources>
