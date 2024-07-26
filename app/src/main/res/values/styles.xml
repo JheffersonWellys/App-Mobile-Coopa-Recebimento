@@ -20,6 +20,16 @@
         <item name="startIconTint">@color/seletor_de_cor_por_status</item>
         <item name="helperTextEnabled">true</item>
     </style>
+    
+    <style name="Sty_EdtTxt">
+        <item name="android:background">@drawable/bg_edttxt_pesquisa</item>
+        <item name="android:width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:drawablePadding">@dimen/espacamento_padrao</item>
+        <item name="android:drawableStart">@drawable/icn_pesquisar</item>
+        <item name="android:drawableTint">@color/seletor_de_cor_por_status</item>
+    </style>
 
     <!-- CONFIGURAÇÃO DE ESTILOS DE COMPONENTES -->
     <style name="Sty_AppCmpBtn_VerdeClaro" parent="Sty_AppCmpBtn">
