@@ -166,4 +166,20 @@
         <item name="android:hint">Data de Recebimento</item>
     </style>
 
+    <style name="Sty_EdtTxt_PesquisarNotaFiscal" parent="Sty_EdtTxt">
+        <item name="android:hint">Pesquisar NF-e...</item>
+    </style>
+
+    <style name="Sty_EdtTxt_PesquisarItem" parent="Sty_EdtTxt">
+        <item name="android:hint">Pesquisar Item...</item>
+    </style>
+
+    <style name="Sty_EdtTxt_PesquisarFornecedor" parent="Sty_EdtTxt">
+        <item name="android:hint">Pesquisar Fornecedor...</item>
+    </style>
+
+    <style name="Sty_EdtTxt_PesquisarMaterial" parent="Sty_EdtTxt">
+        <item name="android:hint">Pesquisar Material...</item>
+    </style>
+
 </resources>
