@@ -201,7 +201,6 @@
         <item name="android:hint">Pesquisar Material...</item>
     </style>
 
-
     <style name="Sty_TxtVw_Nivel_TituloPrincipal" parent="Sty_TxtVw">
         <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_TituloPrincipal</item>
     </style>
@@ -273,5 +272,11 @@
         <item name="tint">@color/verde_500</item>
         <item name="android:src">@drawable/icn_enviar</item>
     </style>
-    
+
+    <style name="Sty_ImgBtn_SalvarCorrecao" parent="Sty_ImgBtn">
+        <item name="android:background">@drawable/bg_imgbtn_correcao_concluida</item>
+        <item name="android:src">@drawable/icn_salvar_correcao</item>
+        <item name="tint">@color/branco_1000</item>
+    </style>
+
 </resources>
