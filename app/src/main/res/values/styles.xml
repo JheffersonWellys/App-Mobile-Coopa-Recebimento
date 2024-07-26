@@ -10,4 +10,30 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <!-- CONFIGURAÇÃO DE ESTILOS DE COMPONENTES -->
+    <style name="Sty_AppCmpBtn_VerdeClaro" parent="Sty_AppCmpBtn">
+        <item name="android:background">@drawable/bg_appcmpbtn_verde_claro</item>
+        <item name="android:textColor">@color/branco_1000</item>
+    </style>
+
+    <style name="Sty_AppCmpBtn_VerdeEscuro" parent="Sty_AppCmpBtn">
+        <item name="android:background">@drawable/bg_appcmpbtn_verde_escuro</item>
+        <item name="android:textColor">@color/branco_1000</item>
+    </style>
+
+    <style name="Sty_AppCmpBtn_Amarelo" parent="Sty_AppCmpBtn">
+        <item name="android:background">@drawable/bg_appcmpbtn_amarelo</item>
+        <item name="android:textColor">@color/verde_800</item>
+    </style>
+
+    <style name="Sty_AppCmpBtn_Vermelho" parent="Sty_AppCmpBtn">
+        <item name="android:background">@drawable/bg_appcmpbtn_vermelho</item>
+        <item name="android:textColor">@color/branco_1000</item>
+    </style>
+
+    <style name="Sty_AppCmpBtn_Cinza" parent="Sty_AppCmpBtn">
+        <item name="android:background">@drawable/bg_appcmpbtn_cinza</item>
+        <item name="android:textColor">@color/cinza_700</item>
+    </style>
+
 </resources>
