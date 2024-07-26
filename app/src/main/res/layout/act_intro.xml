@@ -2,11 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Act00_ContLyt_Intro"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Act_Intro">
 
     <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Act00_LttAniVw_AnimacaoLogoselo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/Dms_Espacamento_Duplo"
@@ -14,10 +16,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:lottie_rawRes="@raw/anim_logoselo"
         app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/anim_logoselo"
         app:lottie_renderMode="automatic"
-        app:lottie_speed="1"
-        app:lottie_loop="false"/>
+        app:lottie_speed="1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
