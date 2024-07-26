@@ -16,10 +16,10 @@
         android:id="@+id/ConsLyt_MenuLateral_NomeEmpresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/espacamento_padrao"
+        android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
         android:text="@string/app_empresa"
         android:textColor="@color/verde_800"
-        android:textSize="@dimen/texto_titulo_secao"
+        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_TituloSecao"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/ConsLyt_MenuLateral_ModuloApp"
         app:layout_constraintStart_toStartOf="parent" />
@@ -30,9 +30,9 @@
         android:layout_height="wrap_content"
         android:text="@string/app_versao"
         android:textColor="@color/verde_800"
-        android:textSize="@dimen/texto_detalhe_adicional"
+        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
         android:textStyle="bold"
-        android:layout_margin="@dimen/espacamento_padrao"
+        android:layout_margin="@dimen/Dms_Espacamento_Padrao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -42,10 +42,10 @@
         android:layout_height="wrap_content"
         android:text="@string/app_modulo"
         android:textColor="@color/branco_1000"
-        android:textSize="@dimen/texto_informativo"
+        android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
         android:textStyle="bold"
-        android:layout_marginBottom="@dimen/espacamento_padrao"
-        android:layout_marginStart="@dimen/espacamento_padrao"
+        android:layout_marginBottom="@dimen/Dms_Espacamento_Padrao"
+        android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

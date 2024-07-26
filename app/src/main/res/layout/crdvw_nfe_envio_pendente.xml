@@ -4,17 +4,17 @@
     android:id="@+id/CrdVw_NFe_EnvioPendente"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="@dimen/espacamento_padrao"
-    android:layout_marginTop="@dimen/espacamento_padrao"
-    android:layout_marginEnd="@dimen/espacamento_padrao"
-    android:elevation="@dimen/espacamento_pequeno">
+    android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginTop="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
+    android:elevation="@dimen/Dms_Espacamento_Pequeno">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/CrdVw_NFe_ConstLyt_DadosNotaFiscal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bg_conlyt_crdvw_corpo_cinza"
-        android:paddingBottom="@dimen/espacamento_medio">
+        android:paddingBottom="@dimen/Dms_Espacamento_medio">
 
         <View
             android:id="@+id/CrdVw_NFe_Vw_Cabecalho"
@@ -29,10 +29,10 @@
             android:id="@+id/CrdVw_NFe_TxtVw_NotaFiscal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/espacamento_padrao"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
             android:text="@string/CrdVw_NFe_NotaFiscal"
             android:textColor="@color/verde_800"
-            android:textSize="@dimen/texto_detalhe_adicional"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintStart_toStartOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintTop_toTopOf="@+id/CrdVw_NFe_Vw_Cabecalho" />
@@ -41,10 +41,10 @@
             android:id="@+id/CrdVw_NFe_TxtVw_NumeroNotaFiscal"
             android:layout_width="85dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/espacamento_medio"
+            android:layout_marginStart="@dimen/Dms_Espacamento_medio"
             android:text="**"
             android:textColor="@color/verde_800"
-            android:textSize="@dimen/texto_informativo"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintStart_toEndOf="@+id/CrdVw_NFe_TxtVw_NotaFiscal"
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:text="@string/CrdVw_NFe_Produtos"
             android:textColor="@color/verde_800"
-            android:textSize="@dimen/texto_detalhe_adicional"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintStart_toEndOf="@+id/CrdVw_NFe_TxtVw_NumeroNotaFiscal"
             app:layout_constraintTop_toTopOf="@+id/CrdVw_NFe_Vw_Cabecalho" />
@@ -65,10 +65,10 @@
             android:id="@+id/CrdVw_NFe_TxtVw_ProdutosColetados"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/espacamento_medio"
+            android:layout_marginStart="@dimen/Dms_Espacamento_medio"
             android:text="**"
             android:textColor="@color/verde_800"
-            android:textSize="@dimen/texto_informativo"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintStart_toEndOf="@+id/CrdVw_NFe_TxtVw_Produtos"
@@ -78,7 +78,7 @@
             android:id="@+id/CrdVw_NFe_ImgVw_StatusNFe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/espacamento_medio"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_medio"
             android:src="@drawable/icn_nfe_pendente_envio"
             app:layout_constraintBottom_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho"
             app:layout_constraintEnd_toEndOf="@+id/CrdVw_NFe_Vw_Cabecalho"
@@ -89,10 +89,10 @@
             android:id="@+id/CrdVw_NFe_TxtVw_Fornecedor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/espacamento_medio"
+            android:layout_marginTop="@dimen/Dms_Espacamento_medio"
             android:text="@string/CrdVw_NFe_Fornecedor"
             android:textColor="@color/cinza_500"
-            android:textSize="@dimen/texto_detalhe_adicional"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             android:textStyle="normal"
             app:layout_constraintStart_toStartOf="@+id/CrdVw_NFe_TxtVw_NotaFiscal"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_NFe_Vw_Cabecalho" />
@@ -101,11 +101,11 @@
             android:id="@+id/CrdVw_NFe_TxtVw_NomeFornecedor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/espacamento_padrao"
-            android:layout_marginEnd="@dimen/espacamento_padrao"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
             android:text="**"
             android:textColor="@color/cinza_900"
-            android:textSize="@dimen/texto_informativo"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/CrdVw_NFe_TxtVw_NotaFiscal"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_NFe_TxtVw_Fornecedor" />
@@ -116,9 +116,9 @@
             android:layout_height="wrap_content"
             android:text="@string/CrdVw_NFe_DataDeRecebimento"
             android:textColor="@color/cinza_500"
-            android:textSize="@dimen/texto_detalhe_adicional"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             android:textStyle="normal"
-            android:layout_marginTop="@dimen/espacamento_pequeno"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Pequeno"
             app:layout_constraintStart_toStartOf="@+id/CrdVw_NFe_TxtVw_NotaFiscal"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_NFe_TxtVw_NomeFornecedor" />
 
@@ -128,7 +128,7 @@
             android:layout_height="wrap_content"
             android:text="**"
             android:textColor="@color/cinza_900"
-            android:textSize="@dimen/texto_informativo"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="@+id/CrdVw_NFe_TxtVw_DataDeRecebimento"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_NFe_TxtVw_DataDeRecebimento" />
@@ -139,7 +139,7 @@
             android:layout_height="wrap_content"
             android:text="@string/CrdVw_NFe_NomeConferente"
             android:textColor="@color/cinza_500"
-            android:textSize="@dimen/texto_detalhe_adicional"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
             android:textStyle="normal"
             app:layout_constraintStart_toEndOf="@+id/CrdVw_NFe_TxtVw_DataDeRecebimento"
             app:layout_constraintTop_toTopOf="@+id/CrdVw_NFe_TxtVw_DataDeRecebimento" />
@@ -150,7 +150,7 @@
             android:layout_height="wrap_content"
             android:text="**"
             android:textColor="@color/cinza_900"
-            android:textSize="@dimen/texto_informativo"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_Informativo"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/CrdVw_NFe_TxtVw_DataDeRecebimento"
             app:layout_constraintTop_toBottomOf="@+id/CrdVw_NFe_TxtVw_NomeConferente" />

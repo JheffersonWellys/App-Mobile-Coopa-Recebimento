@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="espacamento_pequeno">4dp</dimen>
-    <dimen name="espacamento_medio">8dp</dimen>
-    <dimen name="espacamento_padrao">12dp</dimen>
-    <dimen name="espacamento_grande">16dp</dimen>
-    <dimen name="espacamento_muitogrande">24dp</dimen>
-    <dimen name="espacamento_extragrande">32dp</dimen>
-    <dimen name="espacamento_duplo">64dp</dimen>
+    <dimen name="Dms_Espacamento_Pequeno">4dp</dimen>
+    <dimen name="Dms_Espacamento_medio">8dp</dimen>
+    <dimen name="Dms_Espacamento_Padrao">12dp</dimen>
+    <dimen name="Dms_Espacamento_Grande">16dp</dimen>
+    <dimen name="Dms_Espacamento_MuitoGrande">24dp</dimen>
+    <dimen name="Dms_Espacamento_ExtraGrande">32dp</dimen>
+    <dimen name="Dms_Espacamento_Duplo">64dp</dimen>
 
-    <dimen name="texto_titulo_principal">32sp</dimen>
-    <dimen name="texto_titulo_secundario">26sp</dimen>
-    <dimen name="texto_titulo_secao">20sp</dimen>
-    <dimen name="texto_subtitulo">16sp</dimen>
-    <dimen name="texto_informativo">14sp</dimen>
-    <dimen name="texto_detalhe_adicional">12sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloPrincipal">32sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloSecundario">26sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloSecao">20sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_SubTitulo">16sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_Informativo">14sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_DetalheAdicional">12sp</dimen>
 
-    <dimen name="arredondamento_pequeno">4dp</dimen>
-    <dimen name="arredondamento_medio">8dp</dimen>
-    <dimen name="arredondamento_padrao">12dp</dimen>
-    <dimen name="arredondamento_grande">16dp</dimen>
-    <dimen name="arredondamento_muitogrande">24dp</dimen>
-    <dimen name="arredondamento_extragrande">32dp</dimen>
-    <dimen name="arredondamento_duplo">64dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Pequeno">4dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Medio">8dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Padrao">12dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Grande">16dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_MuitoGrande">24dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_ExtraGrande">32dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Duplo">64dp</dimen>
 
 </resources>
