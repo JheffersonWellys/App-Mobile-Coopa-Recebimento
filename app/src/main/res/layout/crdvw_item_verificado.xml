@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CrdVw_Item_Verificado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginTop="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
+    android:elevation="@dimen/Dms_Espacamento_Pequeno">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CrdVw_Item_ConstLyt_DadosItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_conlyt_crdvw_corpo_cinza"
+        android:paddingBottom="@dimen/Dms_Espacamento_medio">
+
+        <View
+            android:id="@+id/CrdVw_Item_Vw_Cabecalho"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_conlyt_crdvw_cabecalho_verde_claro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_Item"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+            android:text="@string/Str_CrdVw_Item_NumeroItem"
+            android:textColor="@color/branco_1000"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_NumeroItem"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_medio"
+            android:text="**"
+            android:textColor="@color/branco_1000"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_Item"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_Material"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Str_CrdVw_Item_Material"
+            android:textColor="@color/branco_1000"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_NumeroItem"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_CodigoMaterial"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_medio"
+            android:text="**"
+            android:textColor="@color/branco_1000"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_Material"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_Vw_Cabecalho" />
+
+        <ImageView
+            android:id="@+id/CrdVw_Item_ImgVw_StatusItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_medio"
+            android:src="@drawable/icn_item_verificado"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintEnd_toEndOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintTop_toTopOf="@id/CrdVw_Item_Vw_Cabecalho"
+            app:tint="@color/branco_1000" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_TextoBreve"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_medio"
+            android:text="@string/Str_CrdVw_Item_TextoBreve"
+            android:textColor="@color/cinza_500"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Item_TxtVw_Item"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_TextoBreveMaterial"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_ExtraGrande"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Item_TxtVw_Item"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_TxtVw_TextoBreve" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_Umb"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Pequeno"
+            android:text="@string/Str_CrdVw_Item_Umb"
+            android:textColor="@color/cinza_500"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Item_TxtVw_Item"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_TxtVw_TextoBreveMaterial" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_UmbMaterial"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Item_TxtVw_Umb"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_TxtVw_Umb" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_CodigoEan"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Str_CrdVw_Item_CodigoEan"
+            android:textColor="@color/cinza_500"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_Umb"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_TxtVw_Umb" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_CodigoEanColetado"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_Umb"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_TxtVw_CodigoEan" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_Quantidade"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Str_CrdVw_Item_Quantidade"
+            android:textColor="@color/cinza_500"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_CodigoEan"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Item_TxtVw_Umb" />
+
+        <TextView
+            android:id="@+id/CrdVw_Item_TxtVw_QuantidadeColetada"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Item_TxtVw_CodigoEan"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_TxtVw_Quantidade" />
+
+        <ImageView
+            android:id="@+id/CrdVw_Item_ImgVw_ModoEdicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_medio"
+            android:src="@drawable/icn_editar_item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Item_Vw_Cabecalho"
+            android:visibility="gone"
+            app:tint="@color/verde_500" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CONFIGURAÇÃO DOS ESPAÇAMENTOS ENTRE ELEMENTOS -->
+    <dimen name="Dms_Espacamento_Pequeno">4dp</dimen>
+    <dimen name="Dms_Espacamento_medio">8dp</dimen>
+    <dimen name="Dms_Espacamento_Padrao">12dp</dimen>
+    <dimen name="Dms_Espacamento_Grande">16dp</dimen>
+    <dimen name="Dms_Espacamento_MuitoGrande">24dp</dimen>
+    <dimen name="Dms_Espacamento_ExtraGrande">32dp</dimen>
+    <dimen name="Dms_Espacamento_Duplo">64dp</dimen>
+
+    <!-- CONFIGURAÇÃO DOS TAMANHOS DE TEXTOS -->
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloPrincipal">32sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloSecundario">26sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_TituloSecao">20sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_SubTitulo">16sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_Informativo">14sp</dimen>
+    <dimen name="Dms_TamanhoTexto_Nivel_DetalheAdicional">12sp</dimen>
+
+    <!-- CONFIGURAÇÃO DOS ARREDONDAMENTOS DE BORDAS -->
+    <dimen name="Dms_ArredondamentoBordas_Pequeno">4dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Medio">8dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Padrao">12dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Grande">16dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_MuitoGrande">24dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_ExtraGrande">32dp</dimen>
+    <dimen name="Dms_ArredondamentoBordas_Duplo">64dp</dimen>
+
+</resources>
