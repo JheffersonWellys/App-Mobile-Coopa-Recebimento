@@ -29,6 +29,8 @@
         <item name="android:drawablePadding">@dimen/espacamento_padrao</item>
         <item name="android:drawableStart">@drawable/icn_pesquisar</item>
         <item name="android:drawableTint">@color/seletor_de_cor_por_status</item>
+        <item name="android:textColor">@color/verde_800</item>
+        <item name="android:textColorHint">@color/cinza_700</item>
     </style>
 
     <!-- CONFIGURAÇÃO DE ESTILOS DE COMPONENTES -->
