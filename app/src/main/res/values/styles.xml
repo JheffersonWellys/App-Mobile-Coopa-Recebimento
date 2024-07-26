@@ -47,4 +47,113 @@
         <item name="android:textColor">@color/cinza_700</item>
     </style>
 
+    <style name="Sty_TxtInptLyt_Email" parent="Sty_TxtInptLyt">
+        <item name="startIconDrawable">@drawable/icn_email</item>
+        <item name="android:hint">E-mail</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_Senha" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">12</item>
+        <item name="endIconMode">password_toggle</item>
+        <item name="startIconDrawable">@drawable/icn_senha</item>
+        <item name="android:hint">Senha</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_NumeroNFe" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">9</item>
+        <item name="startIconDrawable">@drawable/icn_numero</item>
+        <item name="android:hint">Número NF-e</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_SerieNFe" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">3</item>
+        <item name="startIconDrawable">@drawable/icn_numero</item>
+        <item name="android:hint">Série NF-e</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_NomeConferente" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_texto</item>
+        <item name="android:hint">Nome Conferente</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_UnidadeDeMedida" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">5</item>
+        <item name="startIconDrawable">@drawable/icn_umb</item>
+        <item name="android:hint">Unidade de Medida</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_Notificacao" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">250</item>
+        <item name="startIconDrawable">@drawable/icn_texto_notificacao</item>
+        <item name="android:hint">Notificação</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_NomeColaborador" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_conferente</item>
+        <item name="android:hint">Nome Colaborador</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_Material" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">9</item>
+        <item name="startIconDrawable">@drawable/icn_material</item>
+        <item name="android:hint">Material</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_CodigoEan" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">15</item>
+        <item name="startIconDrawable">@drawable/icn_ean</item>
+        <item name="android:hint">Código Ean</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_NumeroItem" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">4</item>
+        <item name="startIconDrawable">@drawable/icn_numero_item</item>
+        <item name="android:hint">Código Ean</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_TextoBreveMaterial" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_texto_breve_material</item>
+        <item name="android:hint">Código Ean</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_Filial" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_filial</item>
+        <item name="android:hint">Filial</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_IdentificadorFornecedor" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_cnpj</item>
+        <item name="android:hint">CNPJ/CPF Fornecedor</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_RazaoSocialFornecedor" parent="Sty_TxtInptLyt">
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">40</item>
+        <item name="startIconDrawable">@drawable/icn_razao_social</item>
+        <item name="android:hint">Razão Social Fornecedor</item>
+    </style>
+
+    <style name="Sty_TxtInptLyt_DataDeRecebimento" parent="Sty_TxtInptLyt">
+        <item name="startIconDrawable">@drawable/icn_data</item>
+        <item name="android:hint">Data de Recebimento</item>
+    </style>
+
 </resources>
