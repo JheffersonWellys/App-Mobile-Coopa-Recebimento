@@ -36,4 +36,8 @@
     <!-- CONFIGURAÇÃO DO TEXTOS DOS ELEMENTOS DA TELA DE LOGON -->
     <string name="Str_Act01_AppCmpBtn_ExecutarLogon">Conectar-se</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS ELEMENTOS DA TELA DE LOGIN -->
+    <string name="Str_Frg00_TxtVw_Login">Login</string>
+    <string name="Str_Frg00_TxtVw_EsqueceuSenha">Esqueceu sua senha?</string>
+
 </resources>
