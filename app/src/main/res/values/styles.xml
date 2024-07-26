@@ -10,7 +10,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Sty_TxtInptLyt" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+    <style name="Sty_TxtInptLyt" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeWidthFocused">2dp</item>
         <item name="boxStrokeWidth">2dp</item>
         <item name="boxStrokeColor">@color/seletor_de_cor_por_status</item>
@@ -19,6 +19,12 @@
         <item name="endIconTint">@color/seletor_de_cor_por_status</item>
         <item name="startIconTint">@color/seletor_de_cor_por_status</item>
         <item name="helperTextEnabled">true</item>
+    </style>
+
+    <style name="Sty_TxtInptEdtTxt" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">@dimen/Dms_TamanhoTexto_Nivel_Informativo</item>
+        <item name="android:textColor">@color/cinza_900</item>
     </style>
     
     <style name="Sty_EdtTxt">
