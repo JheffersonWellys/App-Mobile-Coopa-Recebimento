@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Act01_ContLyt_Logon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act_Logon">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Act01_ContLyt_Ilustracao"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/bg_conlyt_ilustracao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Act01_ImgVw_Ilustracao"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/svg_ilustracao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/Act01_ImgVw_Logoselo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vec_logoselo_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Act01_ImgVw_Ilustracao" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/Act01_VwPgr2_ModosLogon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/Dms_Espacamento_ExtraGrande"
+        android:layout_marginBottom="@dimen/Dms_Espacamento_ExtraGrande"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/Act01_AppCmpBtn_ExecutarLogon"
+        app:layout_constraintTop_toBottomOf="@+id/Act01_ContLyt_Ilustracao" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Act01_AppCmpBtn_ExecutarLogon"
+        style="@style/Sty_AppCmpBtn_VerdeEscuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Str_Act01_AppCmpBtn_ExecutarLogon"
+        android:layout_margin="@dimen/Dms_Espacamento_Padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
