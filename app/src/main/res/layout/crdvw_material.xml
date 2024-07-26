@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CrdVw_Material"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginTop="@dimen/Dms_Espacamento_Padrao"
+    android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
+    android:elevation="@dimen/Dms_Espacamento_Pequeno">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/CrdVw_Material_ConstLyt_DadosMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_conlyt_crdvw_corpo_cinza"
+        android:paddingBottom="@dimen/Dms_Espacamento_medio">
+
+        <View
+            android:id="@+id/CrdVw_Material_Vw_Cabecalho"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/bg_conlyt_crdvw_cabecalho_verde_escuro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_CodigoMaterial"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+            android:text="@string/Str_CrdVw_Material_CodigoMaterial"
+            android:textColor="@color/branco_1000"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Material_Vw_Cabecalho"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_Vw_Cabecalho"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Material_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_NumeroMaterial"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_medio"
+            android:text="**"
+            android:textColor="@color/verde_500"
+            app:layout_constraintBottom_toBottomOf="@+id/CrdVw_Material_Vw_Cabecalho"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Material_TxtVw_CodigoMaterial"
+            app:layout_constraintTop_toTopOf="@+id/CrdVw_Material_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_TextoBreveMaterial"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_medio"
+            android:text="@string/Str_CrdVw_Material_TextoBreveMaterial"
+            android:textColor="@color/cinza_500"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_TxtVw_CodigoMaterial"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_Vw_Cabecalho" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_NomeMaterial"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Padrao"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_Padrao"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_TxtVw_CodigoMaterial"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_TxtVw_TextoBreveMaterial" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_UnidadeDeMedida"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Pequeno"
+            android:text="@string/Str_CrdVw_Material_UnidadeDeMedida"
+            android:textColor="@color/cinza_500"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_TxtVw_CodigoMaterial"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_TxtVw_NomeMaterial" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_UnidadeDeMedidaRegistrada"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_TxtVw_UnidadeDeMedida"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_TxtVw_UnidadeDeMedida" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_CodigoEan"
+            style="@style/Sty_TxtVw_Nivel_DetalheAdicional"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Pequeno"
+            android:text="@string/Str_CrdVw_Material_CodigoEan"
+            android:textColor="@color/cinza_500"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Grande"
+            android:textSize="@dimen/Dms_TamanhoTexto_Nivel_DetalheAdicional"
+            android:textStyle="normal"
+            app:layout_constraintStart_toEndOf="@+id/CrdVw_Material_TxtVw_UnidadeDeMedida"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_TxtVw_NomeMaterial" />
+
+        <TextView
+            android:id="@+id/CrdVw_Material_TxtVw_CodigoEanRegistrado"
+            style="@style/Sty_TxtVw_Nivel_Informativo_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**"
+            android:textColor="@color/cinza_900"
+            app:layout_constraintStart_toStartOf="@+id/CrdVw_Material_TxtVw_CodigoEan"
+            app:layout_constraintTop_toBottomOf="@+id/CrdVw_Material_TxtVw_CodigoEan" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
