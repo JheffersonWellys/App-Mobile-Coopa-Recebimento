@@ -33,6 +33,14 @@
         <item name="android:textColorHint">@color/cinza_700</item>
     </style>
 
+    <style name="Sty_TxtVw">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Sty_TxtVw_Destaque" parent="Sty_TxtVw">
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <!-- CONFIGURAÇÃO DE ESTILOS DE COMPONENTES -->
     <style name="Sty_AppCmpBtn_VerdeClaro" parent="Sty_AppCmpBtn">
         <item name="android:background">@drawable/bg_appcmpbtn_verde_claro</item>
@@ -183,5 +191,6 @@
     <style name="Sty_EdtTxt_PesquisarMaterial" parent="Sty_EdtTxt">
         <item name="android:hint">Pesquisar Material...</item>
     </style>
+
 
 </resources>
