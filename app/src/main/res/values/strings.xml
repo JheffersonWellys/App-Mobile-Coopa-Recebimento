@@ -21,4 +21,10 @@
     <string name="Str_CrdVw_Item_CodigoEan">Código EAN</string>
     <string name="Str_CrdVw_Item_Quantidade">Quantidade</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS CAMPOS DO CARTÃO DE FORNECEDOR -->
+    <string name="Str_CrdVw_Fornecedor_CodigoBp">BP</string>
+    <string name="Str_CrdVw_Fornecedor_CNPJ">CNPJ</string>
+    <string name="Str_CrdVw_Fornecedor_CPF">CPF</string>
+    <string name="Str_CrdVw_Fornecedor_RazaoSocial">Razão Social</string>
+
 </resources>
