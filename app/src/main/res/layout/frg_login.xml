@@ -5,7 +5,7 @@
     android:id="@+id/Frg00_FragLt_Login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Frag_Login">
+    tools:context=".Frg_Login">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/Frg00_ContLyt_Login"
