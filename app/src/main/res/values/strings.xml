@@ -40,4 +40,8 @@
     <string name="Str_Frg00_TxtVw_Login">Login</string>
     <string name="Str_Frg00_TxtVw_EsqueceuSenha">Esqueceu sua senha?</string>
 
+    <!-- CONFIGURAÇÃO DO TEXTOS DOS ELEMENTOS DA TELA DE REDEFINIR SENHA -->
+    <string name="Str_Frg01_TxtVw_RedefinirSenha">Redefinir Senha</string>
+    <string name="Str_Frg01_TxtVw_LembrouSenha">Lembrou sua senha?</string>
+
 </resources>
