@@ -1,10 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Frg01_FragLt_RedefinirSenha"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Frg_RedefinirSenha">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Frg01_ContLyt_RedefinirSenha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/Frg01_TxtVw_RedefinirSenha"
+            style="@style/Sty_TxtVw_Nivel_TituloSecao_Destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Grande"
+            android:text="@string/Str_Frg01_TxtVw_RedefinirSenha"
+            android:textColor="@color/verde_800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Frg01_TxtInptLyt_Email"
+            style="@style/Sty_TxtInptLyt_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/Dms_Espacamento_Grande"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Grande"
+            android:layout_marginEnd="@dimen/Dms_Espacamento_Grande"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Frg01_TxtVw_RedefinirSenha">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Frg01_TxtInptEdiTxt_Email"
+                style="@style/Sty_TxtInptEdtTxt_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/Frg01_LinLyt_EsqueceuSuaSenha"
+            style="@style/Sty_TxtVw_Nivel_Informativo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|end"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/Dms_Espacamento_Grande"
+            android:paddingEnd="@dimen/Dms_Espacamento_Grande"
+            app:layout_constraintTop_toBottomOf="@+id/Frg01_TxtInptLyt_Email">
+
+            <ImageView
+                android:id="@+id/Frg01_ImgVw_Seguir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/Dms_Espacamento_medio"
+                android:src="@drawable/icn_voltar"
+                app:tint="@color/verde_500" />
+
+            <TextView
+                android:id="@+id/Frg01_TxtVw_EsqueceuSuaSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Str_Frg01_TxtVw_LembrouSenha"
+                android:textColor="@color/cinza_700" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/Frg01_PrgBar_Carregamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/verde_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Frg01_LinLyt_EsqueceuSuaSenha" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
