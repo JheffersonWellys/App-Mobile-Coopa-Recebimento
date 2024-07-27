@@ -90,6 +90,16 @@
 
         </LinearLayout>
 
+        <ProgressBar
+            android:id="@+id/Frg00_PrgBar_Carregamento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/verde_500"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Frg00_LinLyt_EsqueceuSuaSenha" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
